@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#map-container {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: transform 5s ease-in-out;
+    -moz-transition: transform 5s ease-in-out;
+    transition: transform 5s ease-in-out;
+}
+
+#map-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+#planet1 {
+    top: 19.3%;
+    left: 82.8%;
+    width: 5.5%;
+}
+
+#planet2 {
+    top: 64%;
+    left: 13.2%;
+    width: 4%;
+}
+
+.planet {
+    border: 1px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.planet img {
+    width: 100%;
+    height: 100%;
+}
